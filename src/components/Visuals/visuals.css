@@ -1,0 +1,119 @@
+/* visual.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .filter {
+    margin-bottom: 15px;
+  }
+  
+  .filter label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .filter select,
+  .filter input[type="date"],
+  .filter input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .filter div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+    min-height: 200px;
+  }
+  
+
+
+  .insights {
+    margin-top: 150px;
+  }
+  
+  .insights h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .insights p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }

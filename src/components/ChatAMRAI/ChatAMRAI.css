@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .chat-amrai-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #000;
+    padding: 15px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .form-and-response {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .prompt-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .prompt-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    height: 200px; /* Increased height for a bigger input area */
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .submit-btn:hover {
+    background-color: #444;
+  }
+  
+  .response {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Added space between form and response */
+  }
+  
+  .response h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .response p {
+    white-space: pre-line;
+  }
+  
+  .recent-prompts {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 500px; /* Limit height for better usability */
+    overflow-y: auto; /* Add scroll for longer lists */
+  }
+  
+  .recent-prompts h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .recent-prompts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-prompts li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .recent-prompts li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
